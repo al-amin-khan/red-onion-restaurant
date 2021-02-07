@@ -1,0 +1,13 @@
+.banner-container{
+  position: relative !important;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
