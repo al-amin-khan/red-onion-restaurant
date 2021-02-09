@@ -13,7 +13,7 @@ const Header = () => {
           <img
             src={logo}
             width="150"
-            height="35"
+            height="40"
             className="d-inline-block align-top"
             alt="Red Onion Restaurant"
           />
