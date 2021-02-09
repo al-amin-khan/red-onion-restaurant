@@ -13,7 +13,7 @@ const Header = () => {
           <img
             src={logo}
             width="150"
-            height="38"
+            height="35"
             className="d-inline-block align-top"
             alt="Red Onion Restaurant"
           />
@@ -21,8 +21,8 @@ const Header = () => {
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
-          <Nav className="ms-auto pe-4">
-            <Nav.Link href="#login" className='text-dark me-3'><FiShoppingCart/></Nav.Link>
+          <Nav className="ms-auto pe-2">
+            <Nav.Link href="#cart" className='text-dark me-3'><FiShoppingCart/></Nav.Link>
             <Nav.Link href="#login" className='text-dark me-3'>Login</Nav.Link>
             <Nav.Link href="#signup" className='rounded-pill bg-pink text-white me-3 pl-pr'>Sign Up</Nav.Link>
             

@@ -1,7 +1,7 @@
 .banner-container{
   position: relative !important;
 }
-img {
+.banner-img {
   object-fit: cover;
   width: 100%;
 }
@@ -10,4 +10,20 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.btn-custom{
+  background-color: #F91944 !important;
+  border-color: #F91944 !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+.right-pill{
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+}
+.left-pill{
+  border-top-left-radius: 50rem !important;
+  border-bottom-left-radius: 50rem !important;
 }
